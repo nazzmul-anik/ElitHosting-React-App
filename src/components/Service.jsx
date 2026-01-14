@@ -12,7 +12,10 @@ const Service = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {serviceData.map((service, index) => (
-            <div className="border border-primary/80 rounded-2xl shadow-2xl p-10">
+            <div
+              key={index}
+              className="border border-primary/80 rounded-2xl shadow-2xl p-10"
+            >
               <div className="w-20 h-20 rounded-full bg-amber-600/20 flex items-center justify-center mb-6">
                 <img className="object-cover" src={service.image} alt="" />
               </div>

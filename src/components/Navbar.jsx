@@ -51,20 +51,22 @@ const Navbar = () => {
         </div>
 
         {/* Auth Button */}
-        <div className="hidden md:flex items-center space-x-6">
-          <Link
-            to={"/auth"}
-            className="text-dark font-semibold rounded cursor-pointer"
-          >
-            Login
-          </Link>
-          <Link
-            to={"/auth"}
-            className="px-6 py-2.5 bg-primary text-white font-semibold rounded  cursor-pointer"
-          >
-            Sign Up
-          </Link>
-        </div>
+        {location.pathname !== "/auth" && (
+          <div className="hidden md:flex items-center space-x-6">
+            <Link
+              to={"/auth"}
+              className="text-dark font-semibold rounded cursor-pointer"
+            >
+              Login
+            </Link>
+            <Link
+              to={"/auth"}
+              className="px-6 py-2.5 bg-primary text-white font-semibold rounded  cursor-pointer"
+            >
+              Sign Up
+            </Link>
+          </div>
+        )}
 
         {/* Mobile Version */}
 
