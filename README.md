@@ -1,19 +1,57 @@
-# Live Demo
+# ElitHosting – Hosting Website UI 🚀
+
+**ElitHosting** is a modern, responsive **hosting service website UI** built using **React**.  
+The project demonstrates a clean **multi-page architecture**, professional layout, and responsive design suitable for real-world hosting or SaaS platforms.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Vercel Deployment:**  
 https://elit-hosting-react-app.vercel.app/
 
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Project Overview
 
-Currently, two official plugins are available:
+This project focuses on:
+- Building a professional hosting website UI
+- Implementing multi-page navigation using React Router
+- Creating a responsive and clean layout with Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Multi-page navigation using **React Router DOM**
+- Fully responsive design for mobile, tablet, and desktop
+- Clean and professional UI layout
+- Reusable React components
+- Smooth navigation between pages
+- Modern hosting-style design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- React Router DOM
+- Tailwind CSS
+- JavaScript (ES6+)
+
+---
+
+## 🎨 Design & Responsiveness
+
+> This project focuses on **UI quality and responsiveness** rather than backend functionality.  
+> It follows a **real-world hosting website layout** commonly used in SaaS platforms.
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/your-username/ElitHosting-React-App.git
+cd ElitHosting-React-App
+npm install
+npm run dev
